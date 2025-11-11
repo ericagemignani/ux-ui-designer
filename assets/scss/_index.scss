@@ -1,0 +1,469 @@
+// -- VARIABILI --
+$primary-color: #3C0061;
+$secondary-color: #FCFCFF;
+$tertiary-color: #7042CC;
+$accent-color: #AFF64C;
+$main-font-color: #24003A;
+$gray: #C1B8C6;
+$font-main: 'Raleway', sans-serif;
+$font-secondary: 'Koulen', sans-serif;
+// -- VARIABILI --
+
+// -- HERO --
+#hero {
+    padding: 136px 112px 68px 112px;
+    margin: 0 -100px 0 -100px;
+    background-image: url(/assets/immagini/bg_hero_mobile.svg);
+    background-repeat: no-repeat;
+    background-position: bottom right 100px;
+    border-bottom: 32px solid $tertiary-color;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+#hero h1 {
+    max-width: 264px;
+}
+
+#hero h2 {
+    font-size: 20px;
+    margin-top: 36px;
+    margin-bottom: 8px;
+}
+
+#hero p {
+    margin-bottom: 32px;
+    width: 50%;
+}
+
+#hero a {
+    text-decoration: none;
+}
+
+@media (min-width: 440px) {
+    #hero {
+        padding-bottom: 80px;
+        background-position: bottom 5px right 100px;
+    }
+}
+
+@media (min-width: 560px) {
+    #hero {
+        padding-bottom: 96px;
+        background-position: bottom 12px right 100px;
+    }
+}
+
+@media (min-width: 630px) {
+    #hero {
+        background-position: bottom 18px right 100px;
+    }
+}
+
+@media (min-width: 680px) {
+    #hero {
+        background-position: bottom 23px right 100px;
+    }
+}
+
+@media (min-width: 744px) {
+    #hero {
+        padding: 200px 132px 136px 132px;
+        margin: 0 -100px 0 -100px;
+        background-image: url(/assets/immagini/bg_hero_tablet.svg);
+        background-repeat: no-repeat;
+        background-position: bottom right 100px;
+        border-bottom: 32px solid $tertiary-color;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+    }
+
+    #hero h1 {
+        max-width: 400px;
+    }
+
+    #hero h2 {
+        font-size: 28px;
+        margin-top: 48px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 880px) {
+    #hero {
+        padding-bottom: 148px;
+        background-position: bottom 8px right 100px;
+    }
+}
+
+@media (min-width: 970px) {
+    #hero {
+        padding-bottom: 160px;
+        background-position: bottom 14px right 100px;
+    }
+}
+
+@media (min-width: 1040px) {
+    #hero {
+        padding-bottom: 172px;
+        background-position: bottom 18px right 100px;
+    }
+}
+
+@media (min-width: 1180px) {
+    #hero {
+        padding-bottom: 196px;
+        background-position: bottom 30px right 100px;
+    }
+}
+
+@media (min-width: 1280px) {
+        #hero {
+        padding: 156px 164px 132px 164px;
+        margin: 0 -100px 0 -100px;
+        background-image: url(/assets/immagini/bg_hero_desktop.svg);
+        background-repeat: no-repeat;
+        background-position: bottom 24px right 100px;
+        border-bottom: 32px solid $tertiary-color;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+    }
+
+    #hero h1 {
+        max-width: none;
+    }
+
+    #hero h2 {
+        font-size: 32px;
+        margin-top: 24px;
+        margin-bottom: 16px;
+    }
+
+    #hero p {
+        margin-bottom: 48px;
+    }
+}
+
+@media (min-width: 1440px) {
+    #hero {
+        padding-bottom: 156px;
+        background-position: bottom 35px right 100px;
+    }
+}
+
+@media (min-width: 1640px) {
+    #hero {
+        padding-bottom: 172px;
+        background-position: bottom 46px right 100px;
+    }
+}
+
+@media (min-width: 1920px) {
+    #hero {
+        background-position: bottom 58px right 100px;
+    }
+}
+// -- HERO --
+
+// -- SERVIZI --
+.servizi {
+    padding: 80px 12px 0 12px;
+    margin-bottom: 32px;
+}
+
+.servizi p {
+    margin-top: 8px;
+}
+
+@media (min-width: 744px) {
+    .servizi {
+        padding: 148px 32px 0 32px;
+        margin-bottom: 48px;
+    }
+
+    .servizi p {
+        margin-top: 12px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .servizi {
+        padding: 144px 64px 0 64px;
+        margin-bottom: 56px;
+    }
+
+    .servizi p {
+        margin-top: 16px;
+    }
+}
+
+#drop-down ul {
+    padding: 0 16px;
+}
+
+#drop-down li {
+    padding: 0 0 16px 0;
+}
+
+@media (min-width: 744px) {
+    #drop-down ul {
+        padding: 8px 20px 0 20px;
+    }
+
+
+    #drop-down li {
+        padding-bottom: 20px;
+    }
+}
+
+@media (min-width: 1280px) {
+    #drop-down ul {
+        padding: 16px 24px 0 24px;
+    }
+
+    #drop-down li {
+        padding-bottom: 24px;
+    }
+}
+// -- SERVIZI --
+
+// -- SOFT SKILLS --
+#soft-skills {
+    background-color: $tertiary-color;
+    margin: 124px 12px 140px 12px;
+    padding: 20px 16px;
+    border-radius: 16px;
+}
+
+#soft-skills .int {
+    color: $secondary-color;
+    display: flex;
+    flex-direction: column;
+}
+
+#soft-skills p {
+    margin: 8px 0 36px 0;
+}
+
+#soft-skills .content-tag {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 24px;
+    column-gap: 16px;
+}
+
+#soft-skills .tag {
+    padding: 8px;
+    border-radius: 8px;
+    background-color: $secondary-color;
+    color: $font-main;
+    font-weight: 600;
+    font-size: 12px;
+    box-shadow: 0px 2px 4px rgba(36, 0, 58, 0.20);
+}
+
+@media (min-width: 744px) {
+    #soft-skills {
+        margin: 136px 32px 168px 32px;
+        padding: 48px 24px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        column-gap: 80px;
+    }
+
+    #soft-skills .int {
+        min-width: 250px;
+    }
+
+    #soft-skills p {
+        margin: 12px 0 0 0;
+    }
+
+    #soft-skills .content-tag {
+        max-width: 618px;
+        justify-content: center;
+    }
+
+    #soft-skills .tag {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1280px) {
+    #soft-skills {
+        margin: 192px 64px 288px 64px;
+        padding: 56px 24px;
+        column-gap: 152px;
+    }
+
+    #soft-skills p {
+        margin: 16px 0 0 0;
+    }
+
+    #soft-skills .content-tag {
+        justify-content: center;
+    }
+
+    #soft-skills .tag {
+        font-size: 20px;
+    }
+}
+// -- SOFT SKILLS --
+
+// -- ANEDDOTI --
+.aned-int {
+    padding: 0 12px;
+    margin-top: 88px;
+    margin-bottom: 8px;
+}
+
+.aned-int p {
+    margin-top: 8px;
+}
+
+#aned {
+    margin-bottom: 112px;
+    padding: 16px 12px 48px 12px;
+    background: linear-gradient(180deg, #FCFCFF 0%, #A98DE1 37%, #7042CC 59%, #3C0061 87%);
+    color: $font-main;
+}
+
+#aned .content {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 16px;
+    column-gap: 12px;
+    margin-top: 48px;
+    justify-content: center;
+    align-items: center;
+}
+
+#aned .aned-large {
+    background-color: #F9F8F9;
+    color: $main-font-color;
+    border-radius: 4px;
+    padding: 31px 2px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    text-align: center;
+    max-width: 294px;
+    font-size: 12px;
+    align-items: center;
+}
+
+#aned .aned-large p {
+    padding-top: 9px;
+}
+
+#aned .aned-small {
+    background-color: #F9F8F9;
+    color: $main-font-color;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    text-align: center;
+    max-width: 142px;
+    font-size: 12px;
+    padding: 12px 2px;
+    align-items: center;
+}
+
+#aned img {
+    box-shadow: 0px 0px 4px rgba(60, 0, 97, 0.25);
+}
+
+#aned .aned-small p {
+    padding: 0 4px 0 4px;
+}
+
+@media (min-width: 744px) {
+    .aned-int {
+        padding: 0 32px;
+        margin-bottom: 8px;
+    }
+
+    .aned-int p {
+        margin-top: 12px;
+    }
+
+    #aned {
+        padding: 48px 32px 64px 32px;
+    }
+
+    #aned .content {
+        column-gap: 32px;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    #aned .aned-large {
+        padding: 36px 4px;
+        min-width: 296px;
+        max-width: 323px;
+        font-size: 16px;
+        height: 316px;
+    }
+
+    #aned .aned-large p {
+        padding-top: 24px;
+    }
+
+    #aned .aned-small {
+        min-width: 158px;
+        max-width: 290px;
+        font-size: 16px;
+        padding: 12px 8px;
+        height: 316px;
+        row-gap: 20px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .aned-int {
+        padding: 0 64px;
+        margin-bottom: 8px;
+    }
+
+    .aned-int p {
+        margin-top: 16px;
+    }
+
+    #aned {
+        padding: 64px 64px 88px 64px;
+    }
+
+    #aned .content {
+        column-gap: 64px;
+    }
+
+    #aned .aned-large {
+        padding: 72px 8px 36px 8px;
+        min-width: 472px;
+        max-width: none;
+        height: 472px;
+        font-size: 20px;
+    }
+
+    #aned .aned-large p {
+        padding: 32px 8px 0 8px;
+    }
+
+    #aned .aned-small {
+        min-width: 277px;
+        max-width: none;
+        padding: 24px 8px;
+        height: 472px;
+        row-gap: 24px;
+        font-size: 20px;
+    }
+
+    #aned .aned-small p {
+        padding: 0 8px 0 8px;
+    }
+}
+// -- ANEDDOTI --
+
