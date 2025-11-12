@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Erica Gemignani UX/UI Designer - Curriculum</title>
+
+  <link rel="stylesheet" href="/dist/css/main.css">
+
+  <!-- Stile interno -->
+  <style>
+    .cv-intestazione {
+      padding: 136px 12px 0 12px;
+    }
+
+    .cv-p1 {
+      margin-top: 32px;
+    }
+
+    @media (min-width: 744px) {
+      .cv-intestazione {
+        padding: 200px 32px 0 32px;
+      }
+
+      .cv-p1 {
+        margin-top: 44px;
+      }
+    }
+
+    @media (min-width: 1280px) {
+      .cv-intestazione {
+          padding: 248px 64px 0 64px;
+      }
+
+      .cv-p1 {
+          margin-top: 56px;
+      }
+    }
+
+
+    /* FORMAZIONE */
+    #formazione {
+      margin: 76px 12px 96px 12px;
+      border-left: solid 1.5px #A98EE0;
+    }
+
+    #formazione h2 {
+      padding-left: 12px;
+    }
+
+    #formazione .cv-p2 {
+      padding-left: 16px;
+    }
+
+    #formazione .cv-p3 {
+      margin: 16px 0 24px 0;
+      padding-left: 16px;
+    }
+
+    #formazione .cv-p4 {
+      font-weight: 500;
+      margin-bottom: 8px;
+      padding-left: 16px;
+    }
+
+    #formazione ul {
+      margin: 0 12px 56px 20px;
+      padding-left: 16px;
+    }
+
+    #formazione ul li {
+      padding: 2px 0;
+    }
+
+    #formazione .cv-p5 {
+      margin-bottom: 40px;
+      padding-left: 16px;
+    }
+
+    #formazione .cv-p6 {
+      padding-left: 16px;
+    }
+
+    @media (min-width: 744px) {
+      #formazione {
+      margin: 132px 32px 116px 32px;
+      }
+
+      #formazione h2 {
+        padding-left: 22px;
+      }
+
+      #formazione .cv-p2 {
+        padding-left: 22px;
+      }
+
+      #formazione .cv-p3 {
+        margin: 20px 0;
+        padding-left: 22px;
+      }
+
+      #formazione .cv-p4 {
+        font-weight: 500;
+        margin-bottom: 12px;
+        padding-left: 22px;
+      }
+
+      #formazione ul {
+        padding-left: 22px;
+      }
+
+      #formazione ul li {
+        padding: 2px 0;
+      }
+
+      #formazione .cv-p5 {
+        padding-left: 22px;
+      }
+
+      #formazione .cv-p6 {
+        padding-left: 22px;
+      }
+    }
+
+    @media (min-width: 1280px) {
+      #formazione {
+      margin: 128px 64px 136px 64px;
+      }
+
+      #formazione h2 {
+        padding-left: 26px;
+        margin-top: 8px;
+      }
+
+      #formazione .cv-p2 {
+        padding-left: 26px;
+      }
+
+      #formazione .cv-p3 {
+        margin: 24px 0 32px 0;
+        padding-left: 26px;
+      }
+
+      #formazione .cv-p4 {
+        font-weight: 500;
+        margin-bottom: 8px;
+        padding-left: 26px;
+      }
+
+      #formazione ul {
+        margin: 0 0 64px 20px;
+        padding-left: 26px;
+      }
+
+      #formazione ul li {
+        padding: 2px 0;
+      }
+
+      #formazione .cv-p5 {
+        padding-left: 26px;
+      }
+
+      #formazione .cv-p6 {
+        padding-left: 26px;
+      }
+    }
+
+    #formazione .stop-point {
+      display: flex;
+      flex-direction: row;
+      column-gap: 8px;
+      margin-top: 40px;
+      padding: 0;
+      align-items: center;
+    }
+
+    #formazione .stop-bullet {
+      width: 8px;
+      height: 8px;
+      background-color: #A98EE0;
+      margin: 0;
+    }
+
+    @media (min-width: 744px) {
+      #formazione .stop-point {
+        margin-top: 48px;
+        column-gap: 12px;
+      }
+
+      #formazione .stop-bullet {
+        width: 10px;
+        height: 10px;
+      }
+    }
+
+    @media (min-width: 1280px) {
+      #formazione .stop-point {
+        margin-top: 40px;
+        column-gap: 14px;
+      }
+
+      #formazione .stop-bullet {
+        width: 12px;
+        height: 12px;
+      }
+    }
+/* FORMAZIONE */
+
+/* ESPERIENZA */
+    #esperienza {
+      background-color: #3C0061;
+      padding: 40px 12px 40px 12px;
+      margin-bottom: 96px;
+    }
+
+    #esperienza .content {
+      margin: 0;
+      padding: 0;
+      border-left: solid 1.5px #E2D9F5;
+      color: #FCFCFF;
+    }
+
+    #esperienza h2 {
+      padding-left: 16px;
+    }
+
+    #esperienza .cv-p7 {
+      padding-left: 16px;
+    }
+
+    #esperienza .cv-p8 {
+      font-weight: 500;
+      margin: 24px 0 8px 0;
+      padding-left: 16px;
+    }
+
+    #esperienza ul {
+      margin-left: 20px;
+      margin-top: 0;
+      padding-left: 16px;
+    }
+
+    #esperienza ul li {
+      padding: 2px 0;
+    }
+
+    #esperienza .cv-p9 {
+      padding-left: 16px;
+    }
+
+    #esperienza .cv-p10 {
+      font-weight: 500;
+      margin: 24px 0 8px 0;
+      padding-left: 16px;
+    }
+
+    @media (min-width: 744px) {
+      #esperienza {
+      padding: 40px 32px;
+      margin-bottom: 176px;
+      }
+
+      #esperienza h2 {
+        padding-left: 22px;
+      }
+
+      #esperienza .cv-p7 {
+        padding-left: 22px;
+      }
+
+      #esperienza ul {
+        margin-top: 0; 
+      }
+
+      #esperienza .cv-p8 {
+        margin: 20px 0 8px 0;
+        padding-left: 22px;
+      }
+
+      #esperienza .cv-p9 {
+        padding-left: 22px;
+      }
+
+      #esperienza .cv-p10 {
+        font-weight: 500;
+        margin: 20px 0 8px 0;
+        padding-left: 22px;
+      }
+    }
+
+    @media (min-width: 1280px) {
+      #esperienza {
+      padding: 64px;
+      margin-bottom: 216;
+      }
+
+      #esperienza h2 {
+        padding-left: 26px;
+      }
+
+      #esperienza .cv-p7 {
+        padding-left: 26px;
+      }
+
+      #esperienza ul {
+        margin-top: 0;
+        padding-left: 26px;
+      }
+
+      #esperienza .cv-p8 {
+        font-weight: 500;
+        margin: 32px 0 8px 0;
+        padding-left: 26px;
+      }
+
+      #esperienza .cv-p9 {
+        padding-left: 26px;
+      }
+
+      #esperienza .cv-p10 {
+        font-weight: 500;
+        margin: 32px 0 8px 0;
+        padding-left: 26px;
+      }
+    }
+
+    #esperienza .stop-point {
+      display: flex;
+      flex-direction: row;
+      column-gap: 8px;
+      margin-top: 40px;
+      padding: 0;
+      align-items: center;
+    }
+
+    #esperienza .stop-bullet {
+      width: 8px;
+      height: 8px;
+      background-color: #E2D9F5;
+      margin: 0;
+    }
+
+    @media (min-width: 744px) {
+      #esperienza .stop-point {
+        margin-top: 48px;
+        column-gap: 12px;
+      }
+
+      #esperienza .stop-bullet {
+        width: 10px;
+        height: 10px;
+      }
+    }
+
+    @media (min-width: 1280px) {
+      #esperienza .stop-point {
+        margin-top: 40px;
+        column-gap: 14px;
+      }
+
+      #esperienza .stop-bullet {
+        width: 12px;
+        height: 12px;
+      }
+    }
+/* ESPERIENZA */
+
+/* LINGUE */
+      #lingue {
+        padding: 0 12px;
+        margin: 0;
+      }
+
+      #lingue .bullets-full {
+        width: 12px;
+        height: 12px;
+        background-color: #7042CC;
+        border-radius: 50%;
+        margin: 0;
+        padding: 0;
+      }
+
+      #lingue .bullets-empty {
+        width: 12px;
+        height: 12px;
+        background-color: rgba(112, 66, 204, 0.30);
+        border-radius: 50%;
+        margin: 0;
+        padding: 0;
+      }
+
+      #lingue .bullets {
+        display: flex;
+        flex-direction: row;
+        column-gap: 8px;
+        padding: 0;
+        margin: 0;
+      }
+
+      #lingue .content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
+        margin: 40px 0;
+        padding: 0;
+      }
+
+      #lingue .box {
+        margin-bottom: 32px;
+      }
+
+      #lingue p {
+        margin-bottom: 12px;
+      }
+
+      @media (min-width: 744px) {
+        #lingue {
+        padding: 0 32px;
+        }
+
+        #lingue .content {
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+          margin: 56px 0;
+        }
+
+        #lingue .box {
+        margin-bottom: 0;
+        }
+
+        #lingue p {
+        margin-bottom: 28px;
+        }
+      }
+
+      @media (min-width: 1280px) {
+        #lingue {
+        padding: 0 64px;
+        }
+
+        #lingue .content {
+          margin: 72px 0;
+        }
+
+        #lingue p {
+          margin-bottom: 32px;
+        }
+      }
+/* LINGUE */
+
+    </style>
+<!-- Stile interno -->
+
+    <link rel="icon" href="/assets/immagini/favicon.svg" type="image/svg">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+<!-- Font -->  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<!-- Font -->
+
+</head>
+
+<body>
+  <!-- Navigation -->
+  <header class="header">
+    <a href="/index.html" class="logo">
+      <picture>
+        <source media="(min-width: 744px)" srcset="/assets/immagini/logo_chiaro_grande.svg" alt="Logo di Erica Gemignani UX/UI Designer">  
+        <img src="/assets/immagini/logo_chiaro_piccolo.svg" alt="Logo di Erica Gemignani UX/UI Designer">
+      </picture>
+    </a>
+    <input class="menu-buttn" id="menu-buttn" type="checkbox">
+    <label for="menu-buttn" class="menu-icon">
+      <span class="nav-icon"></span>
+    </label>
+    <div class="overlay"></div>
+    <ul class="menu">
+        <li><a href="/portfolio/">Portfolio</a></li>
+        <li><a href="/cv.html">CV</a></li>
+        <li><a href="/contattami.html" class="secondary-buttn">Contattami</a></li>
+    </ul>
+  </header>
+<!-- Navigation   -->
+
+<main>
+
+
+  <div class="cv-intestazione">
+    <h1>Curriculum</h1>
+    <p class="cv-p1">Ogni esperienza mi ha insegnato qualcosa di <span class="maiusc">importante</span></p>
+  </div>
+
+  <section id="formazione">
+    <h2>Formazione</h2>
+    <div class="stop-point">
+      <div class="stop-bullet"></div>
+      <h3>Master in UX/UI Design</h3>
+    </div>
+    <p class="cv-p2">Start2impact University<br>02.2024 - in corso</p>
+    <p class="cv-p3">Percorso teorico e pratico con progetti corretti da professionisti del settore.</p>
+    <p class="cv-p4">Competenze sviluppate:</p>
+    <ul>
+      <li>User experience design e design thinking</li>
+      <li>Architettura dell’informazione</li>
+      <li>Analisi as is</li>
+      <li>Analisi competitor</li>
+      <li>Surveys e interviste</li>
+      <li>Definizione delle personas</li>
+      <li>User journey</li>
+      <li>Norme per la progettazione accessibile</li>
+      <li>Norme per la progettazione accessibile</li>
+      <li>Responsive design</li>
+      <li>Progettazione con Figma</li>
+      <li>Elementi di graphic e UI design</li>
+      <li>Design system</li>
+      <li>Prototipi interattivi</li>
+      <li>HTML e CSS</li>
+      <li>Strumenti Adobe</li>
+      <li>Branding e identità visiva</li>
+      <li>Copywriting ottimizzato SEO</li>
+      <li>Copy per interfacce e pagine web</li>
+      <li>Fondamenti d’intelligenza artificiale</li>
+      <li>Utilizzo di tool AI</li>
+      <li>Tecniche di prompt engineering</li>
+    </ul>
+    <div class="stop-point">
+      <div class="stop-bullet"></div>
+      <h3>Laurea triennale in discipline dello spettacolo e della comunicazione</h3>
+    </div>
+    <p class="cv-p5">Università di Pisa<br>09.2017 - 09.2021</p>
+    <div class="stop-point">
+      <div class="stop-bullet"></div>
+      <h3>Diploma di Liceo Linguistico</h3>
+    </div>
+    <p class="cv-p6">IIS Chini - Michelangelo<br>09.2012 - 07.2017</p>
+  </section>
+
+  <section id="esperienza">
+    <div class="content">
+      <h2>Esperienza</h2>
+      <div class="stop-point">
+        <div class="stop-bullet"></div>
+        <h3>Receptionist front and back office</h3>
+      </div>
+      <p class="cv-p7">Hotel Bracciotti<br>05.2022 - 09.2023</p>
+      <p class="cv-p8">Competenze sviluppate:</p>
+      <ul>
+        <li>Accoglienza e comunicazione con clienti internazionali</li>
+        <li>Gestione delle richieste e problem solving</li>
+        <li>Coordinamento del team dell’albergo</li>
+        <li>Gestione dei contenuti digitali dell’albergo</li>
+      </ul>
+      <div class="stop-point">
+        <div class="stop-bullet"></div>
+        <h3>Production team member</h3>
+      </div>
+      <p class="cv-p9">Trame Indipendenti - International Independent Short Film Festival<br>02.2021 - 05.2022</p>
+      <p class="cv-p10">Competenze sviluppate:</p>
+      <ul>
+        <li>Comunicazione interculturale con registi internazionali</li>
+        <li>Gestione della comunicazione digitale e social media</li>
+        <li>Organizzazione dell’evento</li>
+        <li>Gestione dell’esperienza durante la serata di premiazione</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="lingue">
+    <h2>Lingue parlate</h2>
+    <div class="content">
+      <div class="box">
+        <p>Italiano</p>
+        <div class="bullets">
+          <div class="bullets-full"></div>
+          <div class="bullets-full"></div>
+          <div class="bullets-full"></div>
+          <div class="bullets-full"></div>
+          <div class="bullets-full"></div>
+        </div>
+      </div>
+      <div class="box">
+        <p>Inglese</p>
+        <div class="bullets">
+          <div class="bullets-full"></div>
+          <div class="bullets-full"></div>
+          <div class="bullets-full"></div>
+          <div class="bullets-full"></div>
+          <div class="bullets-empty"></div>
+        </div>
+      </div>
+      <div class="box">
+        <p>Spagnolo</p>
+        <div class="bullets">
+          <div class="bullets-full"></div>
+          <div class="bullets-full"></div>
+          <div class="bullets-full"></div>
+          <div class="bullets-empty"></div>
+          <div class="bullets-empty"></div>
+        </div>
+      </div>
+      <div class="box">
+        <p>Francese</p>
+        <div class="bullets">
+          <div class="bullets-full"></div>
+          <div class="bullets-empty"></div>
+          <div class="bullets-empty"></div>
+          <div class="bullets-empty"></div>
+          <div class="bullets-empty"></div>
+        </div>
+      </div>
+    </div>      
+  </section>
+
+  <!-- CTA finale   -->
+  <section id="cta-finale">
+    <div class="cta">
+      <p class="parliamone">Parliamone!</p>
+      <p class="final-p">Ti interessano le mie competenze?</p>
+      <a href="/contattami.html" class="primary-buttn">Contattami</a>
+    </div>
+    <div><i class="bi bi-chat-square-dots"></i></div>
+  </section>
+<!-- CTA finale   -->
+
+<!-- Footer -->
+  <footer id="footer">
+    <div class="footer-content">
+      <a href="/index.html" class="logo">
+        <picture>  
+        <source media="(min-width: 744px)" srcset="/assets/immagini/logo_scuro_tablet.svg" alt="Logo di Erica Gemignani UX/UI Designer">  
+        <img src="/assets/immagini/logo_scuro_mobile.svg" alt="Logo di Erica Gemignani UX/UI Designer">
+        </picture>
+      <ul class="menu">
+        <li><a href="/portfolio/">Portfolio</a></li>
+        <li><a href="/cv.html">CV</a></li>
+        <li><a href="/contattami.html">Contattami</a></li>
+    </ul>
+    <div class="icone">
+      <a href="https://www.linkedin.com/in/erica-gemignani-ux/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="https://www.instagram.com/erica_ux.des?igsh=MThyZjgxb2ZyNGw0NA%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="https://github.com/ericagemignani" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-github"></i>
+      </a>
+    </div>
+    </div>
+  </footer>
+<!-- Footer -->
+
+ </body>
+</html>
+
