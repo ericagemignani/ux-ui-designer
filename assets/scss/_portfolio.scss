@@ -108,6 +108,10 @@ $font-secondary: 'Koulen', sans-serif;
     #main-prj .tag {
         margin-top: 32px;
     }
+
+    #main-prj .tag-self {
+        font-size: 14px;
+    }
 }
 
 @media (min-width: 1280px) {
@@ -141,8 +145,8 @@ $font-secondary: 'Koulen', sans-serif;
     }
 
     #main-prj .tag-self {
-        font-size: 20px;
         font-weight: 500;
+        font-size: 16px;
     }
 }
 // -- MAIN PROJECTS --
@@ -252,7 +256,7 @@ $font-secondary: 'Koulen', sans-serif;
     }
 
     #side-prj .tag-self {
-        font-size: 16px;
+        font-size: 14px;
         margin-top: 28px;
     }
 
@@ -294,8 +298,8 @@ $font-secondary: 'Koulen', sans-serif;
     }
 
     #side-prj .tag-self {
-        font-size: 20px;
         margin-top: 32px;
+        font-size: 16px;
     }
 
     #side-prj .linea {

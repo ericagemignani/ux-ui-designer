@@ -497,6 +497,9 @@
   #main-prj .tag {
     margin-top: 32px;
   }
+  #main-prj .tag-self {
+    font-size: 14px;
+  }
 }
 @media (min-width: 1280px) {
   #main-prj {
@@ -525,8 +528,8 @@
          column-gap: 16px;
   }
   #main-prj .tag-self {
-    font-size: 20px;
     font-weight: 500;
+    font-size: 16px;
   }
 }
 #side-prj {
@@ -628,7 +631,7 @@
     font-size: 16px;
   }
   #side-prj .tag-self {
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 28px;
   }
   #side-prj .linea {
@@ -662,8 +665,8 @@
          column-gap: 16px;
   }
   #side-prj .tag-self {
-    font-size: 20px;
     margin-top: 32px;
+    font-size: 16px;
   }
   #side-prj .linea {
     width: 1px;
