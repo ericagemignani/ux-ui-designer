@@ -275,7 +275,7 @@
 #aned {
   margin-bottom: 112px;
   padding: 16px 12px 48px 12px;
-  background: linear-gradient(180deg, #FCFCFF 0%, #A98DE1 37%, #7042CC 59%, #24003A 87%);
+  background: linear-gradient(180deg, #FCFCFF 0%, #A98DE1 37%, #7042CC 59%, #30004E 87%);
   color: "Raleway", sans-serif;
 }
 
@@ -469,7 +469,7 @@
 
 #main-prj .tag-self {
   padding: 8px;
-  background-color: #24003A;
+  background-color: #30004E;
   color: #FCFCFF;
   font-size: 12px;
   font-weight: 500;
@@ -534,7 +534,7 @@
 }
 #side-prj {
   padding: 48px 12px 56px 12px;
-  background-color: #24003A;
+  background-color: #30004E;
   color: #FCFCFF;
 }
 
@@ -794,7 +794,7 @@
 #b-risultato {
   margin-bottom: 112px;
   padding: 0 12px 48px 12px;
-  background: linear-gradient(180deg, #FCFCFF 0%, #A98DE1 37%, #7042CC 59%, #24003A 87%);
+  background: linear-gradient(180deg, #FCFCFF 0%, #A98DE1 37%, #7042CC 59%, #30004E 87%);
   color: "Raleway", sans-serif;
   display: flex;
   flex-direction: column;
@@ -1051,7 +1051,7 @@
 #m-risultato {
   margin-bottom: 112px;
   padding: 0 12px 48px 12px;
-  background: linear-gradient(180deg, #FCFCFF 0%, #A98DE1 37%, #7042CC 59%, #24003A 87%);
+  background: linear-gradient(180deg, #FCFCFF 0%, #A98DE1 37%, #7042CC 59%, #30004E 87%);
   color: "Raleway", sans-serif;
   display: flex;
   flex-direction: column;
@@ -1276,7 +1276,7 @@
   background-color: #FCFCFF;
   font-family: "Raleway", sans-serif;
   font-size: 16px;
-  color: #24003A;
+  color: #180027;
   padding-top: 20px;
   padding-left: 0;
   padding-right: 0;
@@ -1558,7 +1558,7 @@
   }
 }
 #contatti {
-  background-color: #24003A;
+  background-color: #30004E;
   width: 100%;
   margin-top: 96px;
   margin-bottom: 100px;
@@ -1757,7 +1757,7 @@ p {
 .primary-buttn {
   display: inline-flex;
   background-color: #9EDD44;
-  color: #24003A;
+  color: #30004E;
   border: none;
   border-radius: 100px;
   padding: 14px 24px;

@@ -469,7 +469,7 @@
 
 #main-prj .tag-self {
   padding: 8px;
-  background-color: #24003A;
+  background-color: #30004E;
   color: #FCFCFF;
   font-size: 12px;
   font-weight: 500;
@@ -534,7 +534,7 @@
 }
 #side-prj {
   padding: 48px 12px 56px 12px;
-  background-color: #24003A;
+  background-color: #30004E;
   color: #FCFCFF;
 }
 
@@ -1558,7 +1558,7 @@
   }
 }
 #contatti {
-  background-color: #24003A;
+  background-color: #30004E;
   width: 100%;
   margin-top: 96px;
   margin-bottom: 100px;
@@ -1656,7 +1656,7 @@
 }
 
 #social .icone i:hover {
-  color: #24003A;
+  color: #30004E;
 }
 
 #social .icone a {
@@ -1757,7 +1757,7 @@ p {
 .primary-buttn {
   display: inline-flex;
   background-color: #9EDD44;
-  color: #24003A;
+  color: #30004E;
   border: none;
   border-radius: 100px;
   padding: 14px 24px;
@@ -2014,7 +2014,7 @@ p {
 #footer {
   width: 100%;
   margin: 0;
-  background-color: #24003A;
+  background-color: #30004E;
   color: #FCFCFF;
 }
 
