@@ -571,7 +571,7 @@
 
 #side-prj i {
   font-size: 24px;
-  color: #AFF64C;
+  color: #8CC53D;
   text-shadow: 0px 2px 10px rgba(253, 253, 255, 0.2);
 }
 
@@ -839,7 +839,7 @@
 }
 
 #b-risultato a:hover {
-  color: #EFFDDB;
+  color: #8CC53D;
 }
 
 #b-risultato .b-link-desktop {
@@ -1770,7 +1770,7 @@ p {
 }
 
 .primary-buttn:hover {
-  background-color: #8CC53D;
+  background-color: #69942E;
   color: #FCFCFF;
 }
 
@@ -1854,7 +1854,7 @@ p {
   display: inline-flex;
   background-color: #FCFCFF;
   color: #7042CC;
-  border: 2px solid #AFF64C;
+  border: 2px solid #8CC53D;
   border-radius: 100px;
   padding: 14px 28px;
   margin-bottom: 48px;
