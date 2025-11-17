@@ -1756,8 +1756,8 @@ p {
 }
 .primary-buttn {
   display: inline-flex;
-  background-color: #AFF64C;
-  color: #3C0061;
+  background-color: #8CC53D;
+  color: #30004E;
   border: none;
   border-radius: 100px;
   padding: 14px 24px;
@@ -1854,7 +1854,7 @@ p {
   display: inline-flex;
   background-color: #FCFCFF;
   color: #7042CC;
-  border: 2px solid #AFF64C;
+  border: 2px solid #8CC53D;
   border-radius: 100px;
   padding: 14px 28px;
   margin-bottom: 48px;
@@ -1869,7 +1869,7 @@ p {
 .header .secondary-buttn:hover {
   background-color: #DFFBB7;
   color: #7042CC;
-  border: 2px solid #AFF64C;
+  border: 2px solid #8CC53D;
 }
 
 .header .menu-icon {
@@ -2014,7 +2014,7 @@ p {
 #footer {
   width: 100%;
   margin: 0;
-  background-color: #3C0061;
+  background-color: #30004E;
   color: #FCFCFF;
 }
 
