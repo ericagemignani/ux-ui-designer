@@ -4,7 +4,7 @@
   background-image: url("../immagini/bg_hero_mobile.png");
   background-repeat: no-repeat;
   background-position: bottom right 100px;
-  border-bottom: 32px solid #7042CC;
+  border-bottom: 32px solid #5A35A3;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
 }
@@ -57,7 +57,7 @@
     background-image: url("../immagini/bg_hero_tablet.png");
     background-repeat: no-repeat;
     background-position: bottom right 100px;
-    border-bottom: 32px solid #7042CC;
+    border-bottom: 32px solid #5A35A3;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
   }
@@ -101,7 +101,7 @@
     background-image: url("../immagini/bg_hero_desktop.png");
     background-repeat: no-repeat;
     background-position: bottom 24px right 100px;
-    border-bottom: 32px solid #7042CC;
+    border-bottom: 32px solid #5A35A3;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
   }
@@ -186,7 +186,7 @@
   }
 }
 #soft-skills {
-  background-color: #7042CC;
+  background-color: #5A35A3;
   margin: 124px 12px 140px 12px;
   padding: 20px 16px;
   border-radius: 16px;
@@ -292,7 +292,7 @@
 
 #aned .aned-large {
   background-color: #F9F8F9;
-  color: #24003A;
+  color: #180027;
   border-radius: 4px;
   padding: 31px 2px;
   display: flex;
@@ -310,7 +310,7 @@
 
 #aned .aned-small {
   background-color: #F9F8F9;
-  color: #24003A;
+  color: #180027;
   border-radius: 4px;
   display: flex;
   flex-direction: column;
@@ -1688,7 +1688,7 @@ body {
   background-color: #FCFCFF;
   margin: 0;
   font-family: "Raleway", sans-serif, sans-serif;
-  color: #24003A;
+  color: #180027;
   font-size: 16px;
   font-weight: 300px;
 }
@@ -1722,7 +1722,7 @@ p {
 }
 
 .maiusc {
-  color: #7042CC;
+  color: #5A35A3;
   font-weight: 600;
 }
 
@@ -1756,7 +1756,7 @@ p {
 }
 .primary-buttn {
   display: inline-flex;
-  background-color: #AFF64C;
+  background-color: #9EDD44;
   color: #1E0031;
   border: none;
   border-radius: 100px;
@@ -1835,7 +1835,7 @@ p {
   all: unset;
   display: inline-block;
   font-family: "Raleway", sans-serif, sans-serif;
-  color: #7042CC;
+  color: #5A35A3;
   text-decoration: none;
   font-size: 16px;
   font-weight: 500;
@@ -1853,8 +1853,8 @@ p {
 .header .secondary-buttn {
   display: inline-flex;
   background-color: #FCFCFF;
-  color: #7042CC;
-  border: 2px solid #AFF64C;
+  color: #5A35A3;
+  border: 2px solid #9EDD44;
   border-radius: 100px;
   padding: 14px 28px;
   margin-bottom: 48px;
@@ -1869,7 +1869,7 @@ p {
 .header .secondary-buttn:hover {
   background-color: #DFFBB7;
   color: #7042CC;
-  border: 2px solid #AFF64C;
+  border: 2px solid #9EDD44;
 }
 
 .header .menu-icon {
@@ -1880,7 +1880,7 @@ p {
 }
 
 .header .menu-icon .nav-icon {
-  background-color: #7042CC;
+  background-color: #5A35A3;
   display: block;
   width: 24px;
   height: 2.5px;
@@ -1892,7 +1892,7 @@ p {
 
 .header .menu-icon .nav-icon::before,
 .header .menu-icon .nav-icon::after {
-  background-color: #7042CC;
+  background-color: #5A35A3;
   content: "";
   border-radius: 2px;
   box-shadow: 0px 0px 4px rgba(60, 0, 97, 0.25);
@@ -2044,7 +2044,7 @@ p {
 }
 
 #footer .footer-content ul li a:hover {
-  color: #7042CC;
+  color: #5A35A3;
 }
 
 #footer .footer-content .icone {
@@ -2063,7 +2063,7 @@ p {
 }
 
 #footer .footer-content i:hover {
-  color: #7042CC;
+  color: #5A35A3;
 }
 
 @media (min-width: 744px) {
@@ -2105,7 +2105,7 @@ p {
 #cta-finale .parliamone {
   font-weight: 600;
   font-size: 36px;
-  color: #7042CC;
+  color: #5A35A3;
 }
 
 #cta-finale .final-p {

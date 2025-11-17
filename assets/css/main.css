@@ -4,7 +4,7 @@
   background-image: url(..assets/immagini/bg_hero_mobile.svg);
   background-repeat: no-repeat;
   background-position: bottom right 100px;
-  border-bottom: 32px solid #7042CC;
+  border-bottom: 32px solid #5A35A3;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
 }
@@ -57,7 +57,7 @@
     background-image: url(..assets/immagini/bg_hero_tablet.svg);
     background-repeat: no-repeat;
     background-position: bottom right 100px;
-    border-bottom: 32px solid #7042CC;
+    border-bottom: 32px solid #5A35A3;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
   }
@@ -101,7 +101,7 @@
     background-image: url(..assets/immagini/bg_hero_desktop.svg);
     background-repeat: no-repeat;
     background-position: bottom 24px right 100px;
-    border-bottom: 32px solid #7042CC;
+    border-bottom: 32px solid #5A35A3;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
   }
@@ -186,7 +186,7 @@
   }
 }
 #soft-skills {
-  background-color: #7042CC;
+  background-color: #5A35A3;
   margin: 124px 12px 140px 12px;
   padding: 20px 16px;
   border-radius: 16px;
@@ -275,7 +275,7 @@
 #aned {
   margin-bottom: 112px;
   padding: 16px 12px 48px 12px;
-  background: linear-gradient(180deg, #FCFCFF 0%, #A98DE1 37%, #7042CC 59%, #1E0031 87%);
+  background: linear-gradient(180deg, #FCFCFF 0%, #A98DE1 37%, #5A35A3 59%, #1E0031 87%);
   color: "Raleway", sans-serif;
 }
 
@@ -292,7 +292,7 @@
 
 #aned .aned-large {
   background-color: #F9F8F9;
-  color: #24003A;
+  color: #180027;
   border-radius: 4px;
   padding: 31px 2px;
   display: flex;
@@ -310,7 +310,7 @@
 
 #aned .aned-small {
   background-color: #F9F8F9;
-  color: #24003A;
+  color: #180027;
   border-radius: 4px;
   display: flex;
   flex-direction: column;
@@ -1835,7 +1835,7 @@ p {
   all: unset;
   display: inline-block;
   font-family: "Raleway", sans-serif, sans-serif;
-  color: #7042CC;
+  color: #5A35A3;
   text-decoration: none;
   font-size: 16px;
   font-weight: 500;
@@ -1847,14 +1847,14 @@ p {
 }
 
 .header ul a:hover {
-  color: #543199;
+  color: #2D1A52;
 }
 
 .header .secondary-buttn {
   display: inline-flex;
   background-color: #FCFCFF;
-  color: #7042CC;
-  border: 2px solid #8CC53D;
+  color: #5A35A3;
+  border: 2px solid #AFF64C;
   border-radius: 100px;
   padding: 14px 28px;
   margin-bottom: 48px;
@@ -1868,7 +1868,7 @@ p {
 
 .header .secondary-buttn:hover {
   background-color: #DFFBB7;
-  color: #1E0031;
+  color: #2D1A52;
   border: 2px solid #AFF64C;
 }
 
@@ -1880,7 +1880,7 @@ p {
 }
 
 .header .menu-icon .nav-icon {
-  background-color: #7042CC;
+  background-color: #5A35A3;
   display: block;
   width: 24px;
   height: 2.5px;
@@ -1892,7 +1892,7 @@ p {
 
 .header .menu-icon .nav-icon::before,
 .header .menu-icon .nav-icon::after {
-  background-color: #7042CC;
+  background-color: #5A35A3;
   content: "";
   border-radius: 2px;
   box-shadow: 0px 0px 4px rgba(60, 0, 97, 0.25);
@@ -1913,15 +1913,15 @@ p {
 }
 
 .header .menu-icon .nav-icon:hover {
-  background-color: #543199;
+  background-color: #2D1A52;
 }
 
 .header .menu-icon .nav-icon:hover::before {
-  background-color: #543199;
+  background-color: #2D1A52;
 }
 
 .header .menu-icon .nav-icon:hover::after {
-  background-color: #543199;
+  background-color: #2D1A52;
 }
 
 .header .menu-buttn {
@@ -2044,7 +2044,7 @@ p {
 }
 
 #footer .footer-content ul li a:hover {
-  color: #7042CC;
+  color: #5A35A3;
 }
 
 #footer .footer-content .icone {
@@ -2063,7 +2063,7 @@ p {
 }
 
 #footer .footer-content i:hover {
-  color: #7042CC;
+  color: #5A35A3;
 }
 
 @media (min-width: 744px) {
@@ -2105,7 +2105,7 @@ p {
 #cta-finale .parliamone {
   font-weight: 600;
   font-size: 36px;
-  color: #7042CC;
+  color: #5A35A3;
 }
 
 #cta-finale .final-p {
