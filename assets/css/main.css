@@ -275,7 +275,7 @@
 #aned {
   margin-bottom: 112px;
   padding: 16px 12px 48px 12px;
-  background: linear-gradient(180deg, #FCFCFF 0%, #A98DE1 37%, #7042CC 59%, #3C0061 87%);
+  background: linear-gradient(180deg, #FCFCFF 0%, #A98DE1 37%, #7042CC 59%, #1E0031 87%);
   color: "Raleway", sans-serif;
 }
 
@@ -469,7 +469,7 @@
 
 #main-prj .tag-self {
   padding: 8px;
-  background-color: #3C0061;
+  background-color: #1E0031;
   color: #FCFCFF;
   font-size: 12px;
   font-weight: 500;
@@ -534,7 +534,7 @@
 }
 #side-prj {
   padding: 48px 12px 56px 12px;
-  background-color: #3C0061;
+  background-color: #1E0031;
   color: #FCFCFF;
 }
 
@@ -794,7 +794,7 @@
 #b-risultato {
   margin-bottom: 112px;
   padding: 0 12px 48px 12px;
-  background: linear-gradient(180deg, #FCFCFF 0%, #A98DE1 37%, #7042CC 59%, #3C0061 87%);
+  background: linear-gradient(180deg, #FCFCFF 0%, #A98DE1 37%, #7042CC 59%, #1E0031 87%);
   color: "Raleway", sans-serif;
   display: flex;
   flex-direction: column;
@@ -1051,7 +1051,7 @@
 #m-risultato {
   margin-bottom: 112px;
   padding: 0 12px 48px 12px;
-  background: linear-gradient(180deg, #FCFCFF 0%, #A98DE1 37%, #7042CC 59%, #3C0061 87%);
+  background: linear-gradient(180deg, #FCFCFF 0%, #A98DE1 37%, #7042CC 59%, #1E0031 87%);
   color: "Raleway", sans-serif;
   display: flex;
   flex-direction: column;
@@ -1558,7 +1558,7 @@
   }
 }
 #contatti {
-  background-color: #3C0061;
+  background-color: #1E0031;
   width: 100%;
   margin-top: 96px;
   margin-bottom: 100px;
@@ -1757,7 +1757,7 @@ p {
 .primary-buttn {
   display: inline-flex;
   background-color: #AFF64C;
-  color: #3C0061;
+  color: #1E0031;
   border: none;
   border-radius: 100px;
   padding: 14px 24px;
@@ -1868,7 +1868,7 @@ p {
 
 .header .secondary-buttn:hover {
   background-color: #DFFBB7;
-  color: #7042CC;
+  color: #1E0031;
   border: 2px solid #AFF64C;
 }
 
@@ -2014,7 +2014,7 @@ p {
 #footer {
   width: 100%;
   margin: 0;
-  background-color: #3C0061;
+  background-color: #1E0031;
   color: #FCFCFF;
 }
 
