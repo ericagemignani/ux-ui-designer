@@ -275,7 +275,7 @@
 #aned {
   margin-bottom: 112px;
   padding: 16px 12px 48px 12px;
-  background: linear-gradient(180deg, #FCFCFF 0%, #A98DE1 37%, #7042CC 59%, #3C0061 87%);
+  background: linear-gradient(180deg, #FCFCFF 0%, #A98DE1 37%, #7042CC 59%, #30004E 87%);
   color: "Raleway", sans-serif;
 }
 
@@ -469,7 +469,7 @@
 
 #main-prj .tag-self {
   padding: 8px;
-  background-color: #3C0061;
+  background-color: #30004E;
   color: #FCFCFF;
   font-size: 12px;
   font-weight: 500;
@@ -534,7 +534,7 @@
 }
 #side-prj {
   padding: 48px 12px 56px 12px;
-  background-color: #3C0061;
+  background-color: #30004E;
   color: #FCFCFF;
 }
 
@@ -571,7 +571,7 @@
 
 #side-prj i {
   font-size: 24px;
-  color: #AFF64C;
+  color: #8CC53D;
   text-shadow: 0px 2px 10px rgba(253, 253, 255, 0.2);
 }
 
@@ -794,7 +794,7 @@
 #b-risultato {
   margin-bottom: 112px;
   padding: 0 12px 48px 12px;
-  background: linear-gradient(180deg, #FCFCFF 0%, #A98DE1 37%, #7042CC 59%, #3C0061 87%);
+  background: linear-gradient(180deg, #FCFCFF 0%, #A98DE1 37%, #7042CC 59%, #30004E 87%);
   color: "Raleway", sans-serif;
   display: flex;
   flex-direction: column;
@@ -839,7 +839,7 @@
 }
 
 #b-risultato a:hover {
-  color: #EFFDDB;
+  color: #8CC53D;
 }
 
 #b-risultato .b-link-desktop {
@@ -1051,7 +1051,7 @@
 #m-risultato {
   margin-bottom: 112px;
   padding: 0 12px 48px 12px;
-  background: linear-gradient(180deg, #FCFCFF 0%, #A98DE1 37%, #7042CC 59%, #3C0061 87%);
+  background: linear-gradient(180deg, #FCFCFF 0%, #A98DE1 37%, #7042CC 59%, #30004E 87%);
   color: "Raleway", sans-serif;
   display: flex;
   flex-direction: column;
@@ -1558,7 +1558,7 @@
   }
 }
 #contatti {
-  background-color: #3C0061;
+  background-color: #30004E;
   width: 100%;
   margin-top: 96px;
   margin-bottom: 100px;
@@ -1756,7 +1756,7 @@ p {
 }
 .primary-buttn {
   display: inline-flex;
-  background-color: #AFF64C;
+  background-color: #8CC53D;
   color: #3C0061;
   border: none;
   border-radius: 100px;
@@ -1770,7 +1770,7 @@ p {
 }
 
 .primary-buttn:hover {
-  background-color: #8CC53D;
+  background-color: #69942E;
   color: #FCFCFF;
 }
 
@@ -1854,7 +1854,7 @@ p {
   display: inline-flex;
   background-color: #FCFCFF;
   color: #7042CC;
-  border: 2px solid #AFF64C;
+  border: 2px solid #8CC53D;
   border-radius: 100px;
   padding: 14px 28px;
   margin-bottom: 48px;
@@ -1869,7 +1869,7 @@ p {
 .header .secondary-buttn:hover {
   background-color: #DFFBB7;
   color: #7042CC;
-  border: 2px solid #AFF64C;
+  border: 2px solid #8CC53D;
 }
 
 .header .menu-icon {
@@ -2014,7 +2014,7 @@ p {
 #footer {
   width: 100%;
   margin: 0;
-  background-color: #3C0061;
+  background-color: #30004E;
   color: #FCFCFF;
 }
 
