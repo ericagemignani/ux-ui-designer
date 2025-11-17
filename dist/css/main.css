@@ -469,7 +469,7 @@
 
 #main-prj .tag-self {
   padding: 8px;
-  background-color: #3C0061;
+  background-color: #30004E;
   color: #FCFCFF;
   font-size: 12px;
   font-weight: 500;
@@ -534,7 +534,7 @@
 }
 #side-prj {
   padding: 48px 12px 56px 12px;
-  background-color: #3C0061;
+  background-color: #30004E;
   color: #FCFCFF;
 }
 
@@ -571,7 +571,7 @@
 
 #side-prj i {
   font-size: 24px;
-  color: #AFF64C;
+  color: #8CC53D;
   text-shadow: 0px 2px 10px rgba(253, 253, 255, 0.2);
 }
 
@@ -834,7 +834,7 @@
 }
 
 #b-risultato a {
-  color: #AFF64C;
+  color: #8CC53D;
   text-shadow: 0px 2px 10px rgba(253, 253, 255, 0.2);
 }
 
@@ -1558,7 +1558,7 @@
   }
 }
 #contatti {
-  background-color: #3C0061;
+  background-color: #30004E;
   width: 100%;
   margin-top: 96px;
   margin-bottom: 100px;
@@ -1656,7 +1656,7 @@
 }
 
 #social .icone i:hover {
-  color: #3C0061;
+  color: #30004E;
 }
 
 #social .icone a {
