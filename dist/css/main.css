@@ -1037,7 +1037,7 @@
     padding-right: 24px;
   }
   #m-intestazione img {
-    width: 245px;
+    width: 260px;
     height: 215px;
   }
   #m-intro {
@@ -1065,7 +1065,7 @@
     padding-right: 32px;
   }
   #m-intestazione img {
-    width: 371px;
+    width: 388px;
     height: 321px;
   }
   #m-intro {
@@ -1163,7 +1163,7 @@
     flex-wrap: wrap;
   }
   #m-risultato img {
-    width: 218px;
+    width: 318px;
     height: 394px;
   }
   #m-risultato .result:nth-child(3) {
