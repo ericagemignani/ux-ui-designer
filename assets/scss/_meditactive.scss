@@ -28,6 +28,11 @@ $font-secondary: 'Koulen', sans-serif;
     font-style: italic;
 }
 
+#m-intestazione img {
+    width: 142px;
+    height: 104px;
+}
+
 #m-intro {
     margin-top: 72px;
     margin-bottom: 64px;
@@ -55,6 +60,11 @@ $font-secondary: 'Koulen', sans-serif;
 
     #m-intestazione .m-p1 {
         padding-right: 24px;
+    }
+
+    #m-intestazione img {
+        width: 293px;
+        height: 215px;
     }
 
     #m-intro {
@@ -85,6 +95,11 @@ $font-secondary: 'Koulen', sans-serif;
 
     #m-intestazione .m-p1 {
         padding-right: 32px;
+    }
+
+    #m-intestazione img {
+        width: 469px;
+        height: 344px;
     }
 
     #m-intro {
@@ -172,6 +187,11 @@ $font-secondary: 'Koulen', sans-serif;
     max-width: 294px;
 }
 
+#m-risultato img {
+    width: 282px;
+    height: 394px;
+}
+
 #m-risultato .maiusc-due {
     text-transform: uppercase;
     font-weight: 600;
@@ -188,6 +208,11 @@ $font-secondary: 'Koulen', sans-serif;
         justify-content: center;
         column-gap: 48px;
         flex-wrap: wrap;
+    }
+
+    #m-risultato img {
+        width: 218px;
+        height: 394px;
     }
 
     #m-risultato .result:nth-child(3) {
@@ -219,6 +244,11 @@ $font-secondary: 'Koulen', sans-serif;
         padding: 40px 2px 32px 2px;
         row-gap: 32px;
         max-width: 745px;
+    }
+
+    #m-risultato img {
+        width: 356px;
+        height: 402px;
     }
 }
 // -- RISULTATO --
