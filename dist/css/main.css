@@ -929,7 +929,7 @@
          column-gap: 48px;
   }
   #b-risultato .result {
-    padding: 32px 2px;
+    padding: 32px 8px;
     display: flex;
     flex-direction: column;
     row-gap: 16px;
@@ -967,7 +967,7 @@
          column-gap: 64px;
   }
   #b-risultato .result {
-    padding: 40px 2px 32px 2px;
+    padding: 40px 16px 32px 16px;
     row-gap: 32px;
     max-width: 745px;
   }
