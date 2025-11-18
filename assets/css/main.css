@@ -1275,6 +1275,11 @@
   font-style: italic;
 }
 
+#hp-intestazione img {
+    width: 142px;
+    height: 88px;
+}
+
 #hp-intro {
   margin-top: 72px;
   margin-bottom: 64px;
@@ -1300,6 +1305,10 @@
   #b-intestazione .b-p1 {
     padding-right: 24px;
   }
+  #hp-intestazione img {
+    width: 245px;
+    height: 152px;
+  }
   #hp-intro {
     margin-top: 104px;
     margin-bottom: 92px;
@@ -1322,6 +1331,10 @@
   }
   #b-intestazione .b-p1 {
     padding-right: 32px;
+  }
+  #hp-intestazione img {
+    width: 371px;
+    height: 230px;
   }
   #hp-intro {
     margin-top: 136px;
