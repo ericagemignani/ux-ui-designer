@@ -354,6 +354,11 @@ $font-secondary: 'Koulen', sans-serif;
     align-items: center;
 }
 
+#aned .aned-large img {
+    width: 284px;
+    height: 144px;
+}
+
 #aned .aned-large p {
     padding-top: 9px;
 }
@@ -370,6 +375,11 @@ $font-secondary: 'Koulen', sans-serif;
     font-size: 12px;
     padding: 12px 2px;
     align-items: center;
+}
+
+#aned .aned-small img {
+    width: 130px;
+    height: 172px;
 }
 
 #aned img {
