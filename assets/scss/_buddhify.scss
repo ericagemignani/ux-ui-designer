@@ -28,6 +28,11 @@ $font-secondary: 'Koulen', sans-serif;
     font-style: italic;
 }
 
+#b-intestazione img {
+    width: 154px;
+    height: 113px;
+}
+
 #b-intro {
     margin-top: 72px;
     margin-bottom: 64px;
@@ -55,6 +60,11 @@ $font-secondary: 'Koulen', sans-serif;
 
     #b-intestazione .b-p1 {
         padding-right: 24px;
+    }
+
+    #b-intestazione img {
+        width: 293px;
+        height: 215px;
     }
 
     #b-intro {
@@ -85,6 +95,11 @@ $font-secondary: 'Koulen', sans-serif;
 
     #b-intestazione .b-p1 {
         padding-right: 32px;
+    }
+
+    #b-intestazione img {
+        width: 469px;
+        height: 344px;
     }
 
     #b-intro {
@@ -179,6 +194,11 @@ $font-secondary: 'Koulen', sans-serif;
     font-weight: 600;
 }
 
+#b-risultato img {
+    width: 282px;
+    height: 394px;
+}
+
 #b-risultato .link {
     text-align: center;
     margin: 32px 0 0 0;
@@ -219,6 +239,11 @@ $font-secondary: 'Koulen', sans-serif;
         max-width: 332px;
     }
 
+    #b-risultato img {
+        width: 318px;
+        height: 394px;
+    }
+
     #b-risultato .link {
         text-align: center;
         margin: 52px 0 0 0;
@@ -255,6 +280,11 @@ $font-secondary: 'Koulen', sans-serif;
         padding: 40px 2px 32px 2px;
         row-gap: 32px;
         max-width: 745px;
+    }
+
+    #b-risultato img {
+        width: 404px;
+        height: 400px;
     }
 
     #b-risultato .link {
