@@ -22,9 +22,9 @@ $font-secondary: 'Koulen', sans-serif;
     border-bottom-right-radius: 50%;
 }
 
-#hero h1 {
-    max-width: 264px;
-}
+// #hero h1 {
+//     max-width: 264px;
+// }
 
 #hero h2 {
     font-size: 20px;
@@ -45,6 +45,8 @@ $font-secondary: 'Koulen', sans-serif;
     #hero {
         padding-bottom: 80px;
         background-position: bottom 5px right 100px;
+        background-size: 440px auto;
+
     }
 }
 
@@ -52,18 +54,21 @@ $font-secondary: 'Koulen', sans-serif;
     #hero {
         padding-bottom: 96px;
         background-position: bottom 12px right 100px;
+        background-size: 560px auto;
     }
 }
 
 @media (min-width: 630px) {
     #hero {
         background-position: bottom 18px right 100px;
+        background-size: 630px auto;
     }
 }
 
 @media (min-width: 680px) {
     #hero {
         background-position: bottom 23px right 100px;
+        background-size: 680px auto;
     }
 }
 
@@ -80,9 +85,9 @@ $font-secondary: 'Koulen', sans-serif;
         border-bottom-right-radius: 50%;
     }
 
-    #hero h1 {
-        max-width: 400px;
-    }
+    // #hero h1 {
+    //     max-width: 400px;
+    // }
 
     #hero h2 {
         font-size: 28px;
@@ -95,6 +100,7 @@ $font-secondary: 'Koulen', sans-serif;
     #hero {
         padding-bottom: 148px;
         background-position: bottom 8px right 100px;
+        background-size: 880px auto;
     }
 }
 
@@ -102,6 +108,7 @@ $font-secondary: 'Koulen', sans-serif;
     #hero {
         padding-bottom: 160px;
         background-position: bottom 14px right 100px;
+        background-size: 970px auto;
     }
 }
 
@@ -109,6 +116,7 @@ $font-secondary: 'Koulen', sans-serif;
     #hero {
         padding-bottom: 172px;
         background-position: bottom 18px right 100px;
+        background-size: 1040px auto;
     }
 }
 
@@ -116,6 +124,7 @@ $font-secondary: 'Koulen', sans-serif;
     #hero {
         padding-bottom: 196px;
         background-position: bottom 30px right 100px;
+        background-size: 1180px auto;
     }
 }
 
@@ -132,9 +141,9 @@ $font-secondary: 'Koulen', sans-serif;
         border-bottom-right-radius: 50%;
     }
 
-    #hero h1 {
-        max-width: none;
-    }
+    // #hero h1 {
+    //     max-width: none;
+    // }
 
     #hero h2 {
         font-size: 32px;
