@@ -7,6 +7,8 @@
   border-bottom: 32px solid #7042CC;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
+  width: 320px;
+  height: 451px;
 }
 
 #hero h1 {
@@ -60,6 +62,8 @@
     border-bottom: 32px solid #7042CC;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
+    width: 744px;
+    height: 807px;
   }
   #hero h1 {
     max-width: 400px;
@@ -104,6 +108,8 @@
     border-bottom: 32px solid #7042CC;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
+    width: 1280px;
+    height: 606px;
   }
   #hero h1 {
     max-width: none;
