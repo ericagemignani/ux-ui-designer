@@ -87,13 +87,13 @@
 @media (min-width: 1040px) {
   #hero {
     padding-bottom: 148px;
-    background-position: bottom 16px right 100px;
+    background-position: bottom 14px right 100px;
   }
 }
 @media (min-width: 1180px) {
   #hero {
     padding-bottom: 172px;
-    background-position: bottom 28px right 100px;
+    background-position: bottom 24px right 100px;
   }
 }
 @media (min-width: 1280px) {
