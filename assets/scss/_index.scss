@@ -16,11 +16,10 @@ $font-secondary: 'Koulen', sans-serif;
     background-image: url("../immagini/bg_hero_mobile.png");
     background-repeat: no-repeat;
     background-position: bottom right 100px;
+    background-size: 320px auto;
     border-bottom: 32px solid $tertiary-color;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
-    width: 320px;
-    height: 451px;
 }
 
 #hero h1 {
@@ -75,11 +74,10 @@ $font-secondary: 'Koulen', sans-serif;
         background-image: url("../immagini/bg_hero_tablet.png");
         background-repeat: no-repeat;
         background-position: bottom right 100px;
+        background-size: 477px auto;
         border-bottom: 32px solid $tertiary-color;
         border-bottom-left-radius: 50%;
         border-bottom-right-radius: 50%;
-        width: 744px;
-        height: 807px;
     }
 
     #hero h1 {
@@ -128,11 +126,10 @@ $font-secondary: 'Koulen', sans-serif;
         background-image: url("../immagini/bg_hero_desktop.png");
         background-repeat: no-repeat;
         background-position: bottom 24px right 100px;
+        background-size: 1280px auto;
         border-bottom: 32px solid $tertiary-color;
         border-bottom-left-radius: 50%;
         border-bottom-right-radius: 50%;
-        width: 1280px;
-        height: 606px;
     }
 
     #hero h1 {
