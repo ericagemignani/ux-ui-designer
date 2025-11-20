@@ -29,26 +29,22 @@
   #hero {
     padding-bottom: 80px;
     background-position: bottom 5px right 100px;
-    background-size: 440px auto;
   }
 }
 @media (min-width: 560px) {
   #hero {
     padding-bottom: 96px;
     background-position: bottom 12px right 100px;
-    background-size: 560px auto;
   }
 }
 @media (min-width: 630px) {
   #hero {
     background-position: bottom 18px right 100px;
-    background-size: 630px auto;
   }
 }
 @media (min-width: 680px) {
   #hero {
     background-position: bottom 23px right 100px;
-    background-size: 680px auto;
   }
 }
 @media (min-width: 744px) {
@@ -73,21 +69,18 @@
   #hero {
     padding-bottom: 148px;
     background-position: bottom 8px right 100px;
-    background-size: 880px auto;
   }
 }
 @media (min-width: 970px) {
   #hero {
     padding-bottom: 160px;
     background-position: bottom 14px right 100px;
-    background-size: 970px auto;
   }
 }
 @media (min-width: 1040px) {
   #hero {
     padding-bottom: 172px;
     background-position: bottom 18px right 100px;
-    background-size: 1040px auto;
   }
 }
 @media (min-width: 1180px) {
