@@ -75,12 +75,7 @@
 @media (min-width: 880px) {
   #hero {
     padding-bottom: 124px;
-    background-position: bottom 8px right 100px;
-  }
-}
-@media (min-width: 916px) {
-  #hero h2 {
-    margin-top: 56px;
+    background-position: bottom 6px right 100px;
   }
 }
 @media (min-width: 970px) {
