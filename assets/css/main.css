@@ -11,10 +11,6 @@
   overflow: hidden;
 }
 
-/* #hero h1 {
-  max-width: 264px;
-} */
-
 #hero h2 {
   font-size: 20px;
   margin-top: 36px;
@@ -65,9 +61,6 @@
     border-bottom-right-radius: 50%;
     overflow: hidden;
   }
-  /* #hero h1 {
-    max-width: 400px;
-  } */
   #hero h2 {
     font-size: 28px;
     margin-top: 64px;
@@ -111,9 +104,6 @@
     border-bottom-right-radius: 50%;
     overflow: hidden;
   }
-  /* #hero h1 {
-    max-width: none;
-  } */
   #hero h2 {
     font-size: 32px;
     margin-top: 24px;
