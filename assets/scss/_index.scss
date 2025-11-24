@@ -12,7 +12,9 @@ $font-secondary: 'Koulen', sans-serif;
 // -- HERO --
 #hero {
     padding: 136px 112px 68px 112px;
-    margin: 0 -100px 0 -100px;
+    width: 100vw;
+    margin-left: 50%;
+    transform: translateX(-50%);
     background-image: url("../immagini/bg_hero_mobile.png");
     background-repeat: no-repeat;
     background-position: bottom right 100px;
@@ -67,7 +69,9 @@ $font-secondary: 'Koulen', sans-serif;
 @media (min-width: 744px) {
     #hero {
         padding: 192px 132px 184px 132px;
-        margin: 0 -100px 0 -100px;
+        width: 100vw;
+        margin-left: 50%;
+        transform: translateX(-50%);
         background-image: url("../immagini/bg_hero_tablet.png");
         background-repeat: no-repeat;
         background-position: bottom right 100px;
@@ -116,7 +120,9 @@ $font-secondary: 'Koulen', sans-serif;
 @media (min-width: 1280px) {
         #hero {
         padding: 156px 164px 132px 164px;
-        margin: 0 -100px 0 -100px;
+        width: 100vw;
+        margin-left: 50%;
+        transform: translateX(-50%);
         background-image: url("../immagini/bg_hero_desktop.png");
         background-repeat: no-repeat;
         background-position: bottom 24px right 100px;
