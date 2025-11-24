@@ -1,10 +1,14 @@
 #hero {
-  padding: 136px 12px 68px 12px;
-  margin: 0;
+  padding: 136px 112px 68px 112px;
+  margin: 0 -100px 0 -100px;
   background-image: url("../immagini/bg_hero_mobile.png");
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom right 100px;
   background-size: 320px auto;
+  border-bottom: 32px solid #7042CC;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  overflow: hidden;
 }
 
 #hero h2 {
@@ -25,33 +29,37 @@
 @media (min-width: 440px) {
   #hero {
     padding-bottom: 80px;
-    background-position: bottom 5px right;
+    background-position: bottom 5px right 100px;
   }
 }
 @media (min-width: 560px) {
   #hero {
     padding-bottom: 96px;
-    background-position: bottom 12px right;
+    background-position: bottom 12px right 100px;
   }
 }
 @media (min-width: 630px) {
   #hero {
-    background-position: bottom 16px right;
+    background-position: bottom 16px right 100px;
   }
 }
 @media (min-width: 680px) {
   #hero {
-    background-position: bottom 20px right;
+    background-position: bottom 20px right 100px;
   }
 }
 @media (min-width: 744px) {
   #hero {
-    padding: 192px 32px 184px 32px;
-    margin: 0;
+    padding: 192px 132px 184px 132px;
+    margin: 0 -100px 0 -100px;
     background-image: url("../immagini/bg_hero_tablet.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right 100px;
     background-size: 477px auto;
+    border-bottom: 32px solid #7042CC;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    overflow: hidden;
   }
   #hero h2 {
     font-size: 28px;
@@ -62,35 +70,39 @@
 @media (min-width: 880px) {
   #hero {
     padding-bottom: 124px;
-    background-position: bottom 6px right;
+    background-position: bottom 6px right 100px;
   }
 }
 @media (min-width: 970px) {
   #hero {
     padding-bottom: 136px;
-    background-position: bottom 10px right;
+    background-position: bottom 10px right 100px;
   }
 }
 @media (min-width: 1040px) {
   #hero {
     padding-bottom: 148px;
-    background-position: bottom 14px right;
+    background-position: bottom 14px right 100px;
   }
 }
 @media (min-width: 1180px) {
   #hero {
     padding-bottom: 172px;
-    background-position: bottom 24px right;
+    background-position: bottom 24px right 100px;
   }
 }
 @media (min-width: 1280px) {
   #hero {
-    padding: 156px 64px 132px 64px;
-    margin: 0;
+    padding: 156px 164px 132px 164px;
+    margin: 0 -100px 0 -100px;
     background-image: url("../immagini/bg_hero_desktop.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom 24px right 100px;
     background-size: 1280px auto;
+    border-bottom: 32px solid #7042CC;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    overflow: hidden;
   }
   #hero h2 {
     font-size: 32px;
@@ -104,28 +116,20 @@
 @media (min-width: 1440px) {
   #hero {
     padding-bottom: 156px;
-    background-position: bottom 35px right;
+    background-position: bottom 35px right 100px;
   }
 }
 @media (min-width: 1640px) {
   #hero {
     padding-bottom: 172px;
-    background-position: bottom 46px right;
+    background-position: bottom 46px right 100px;
   }
 }
 @media (min-width: 1920px) {
   #hero {
-    background-position: bottom 58px right;
+    background-position: bottom 58px right 100px;
   }
 }
-.arch {
-  background-color: #FCFCFF;
-  border-bottom: 16px solid #7042CC;
-  border-bottom-left-radius: 50%;
-  border-bottom-right-radius: 50%;
-  margin-top: -40px;
-}
-
 .servizi {
   padding: 80px 12px 0 12px;
   margin-bottom: 32px;
@@ -1800,6 +1804,7 @@ body {
   color: #0A0010;
   font-size: 16px;
   font-weight: 300px;
+  overflow: hidden;
 }
 
 h1 {
