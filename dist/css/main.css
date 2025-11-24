@@ -1804,6 +1804,9 @@ body {
   color: #0A0010;
   font-size: 16px;
   font-weight: 300px;
+}
+
+main {
   overflow: hidden;
 }
 
