@@ -41,26 +41,26 @@ $font-secondary: 'Koulen', sans-serif;
 @media (min-width: 440px) {
     #hero {
         padding-bottom: 80px;
-        background-position: bottom 5px right 100px;
+        background-position: bottom 5px right;
     }
 }
 
 @media (min-width: 560px) {
     #hero {
         padding-bottom: 96px;
-        background-position: bottom 12px right 100px;
+        background-position: bottom 12px right;
     }
 }
 
 @media (min-width: 630px) {
     #hero {
-        background-position: bottom 16px right 100px;
+        background-position: bottom 16px right;
     }
 }
 
 @media (min-width: 680px) {
     #hero {
-        background-position: bottom 20px right 100px;
+        background-position: bottom 20px right;
     }
 }
 
@@ -88,28 +88,28 @@ $font-secondary: 'Koulen', sans-serif;
 @media (min-width: 880px) {
     #hero {
         padding-bottom: 124px;
-        background-position: bottom 6px right 100px;
+        background-position: bottom 6px right;
     }
 }
 
 @media (min-width: 970px) {
     #hero {
         padding-bottom: 136px;
-        background-position: bottom 10px right 100px;
+        background-position: bottom 10px right;
     }
 }
 
 @media (min-width: 1040px) {
     #hero {
         padding-bottom: 148px;
-        background-position: bottom 14px right 100px;
+        background-position: bottom 14px right;
     }
 }
 
 @media (min-width: 1180px) {
     #hero {
         padding-bottom: 172px;
-        background-position: bottom 24px right 100px;
+        background-position: bottom 24px right;
     }
 }
 
@@ -141,29 +141,29 @@ $font-secondary: 'Koulen', sans-serif;
 @media (min-width: 1440px) {
     #hero {
         padding-bottom: 156px;
-        background-position: bottom 35px right 100px;
+        background-position: bottom 35px right;
     }
 }
 
 @media (min-width: 1640px) {
     #hero {
         padding-bottom: 172px;
-        background-position: bottom 46px right 100px;
+        background-position: bottom 46px right;
     }
 }
 
 @media (min-width: 1920px) {
     #hero {
-        background-position: bottom 58px right 100px;
+        background-position: bottom 58px right;
     }
 }
 // -- HERO --
 
 .arch {
     background-color: $secondary-color;
-    border-bottom: 16px solid $tertiary-color;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
+    border-bottom: 32px solid $tertiary-color;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
     margin-top: -104px;
 }
 
