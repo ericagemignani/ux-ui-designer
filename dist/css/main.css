@@ -27,7 +27,7 @@
 
 @media (min-width: 744px) {
   #hero {
-    padding: 192px 32px 184px 32px;
+    padding: 192px 32px 96px 32px;
     background-image: url("../immagini/bg_hero_tablet.png");
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -37,10 +37,18 @@
     border-bottom-right-radius: 15%;
     box-shadow: 0px 0px 4px rgba(60, 0, 97, 0.4);
   }
+  #hero h1 {
+    max-width: 400px;
+  }
   #hero h2 {
     font-size: 28px;
     margin-top: 64px;
     margin-bottom: 20px;
+  }
+}
+@media (min-width: 950px) {
+  #hero h1 {
+    max-width: none;
   }
 }
 @media (min-width: 1280px) {

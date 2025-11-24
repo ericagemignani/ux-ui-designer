@@ -37,35 +37,9 @@ $font-secondary: 'Koulen', sans-serif;
     text-decoration: none;
 }
 
-// @media (min-width: 440px) {
-//     #hero {
-//         padding-bottom: 80px;
-//         background-position: bottom 5px right;
-//     }
-// }
-
-// @media (min-width: 560px) {
-//     #hero {
-//         padding-bottom: 96px;
-//         background-position: bottom 12px right;
-//     }
-// }
-
-// @media (min-width: 630px) {
-//     #hero {
-//         background-position: bottom 16px right;
-//     }
-// }
-
-// @media (min-width: 680px) {
-//     #hero {
-//         background-position: bottom 20px right;
-//     }
-// }
-
 @media (min-width: 744px) {
     #hero {
-        padding: 192px 32px 184px 32px;
+        padding: 192px 32px 96px 32px;
         background-image: url("../immagini/bg_hero_tablet.png");
         background-repeat: no-repeat;
         background-position: bottom right;
@@ -76,6 +50,10 @@ $font-secondary: 'Koulen', sans-serif;
         box-shadow: 0px 0px 4px rgba(60, 0, 97, 0.40);
     }
 
+    #hero h1 {
+        max-width: 400px;
+    }
+
     #hero h2 {
         font-size: 28px;
         margin-top: 64px;
@@ -83,33 +61,11 @@ $font-secondary: 'Koulen', sans-serif;
     }
 }
 
-// @media (min-width: 880px) {
-//     #hero {
-//         padding-bottom: 124px;
-//         background-position: bottom 6px right;
-//     }
-// }
-
-// @media (min-width: 970px) {
-//     #hero {
-//         padding-bottom: 136px;
-//         background-position: bottom 10px right;
-//     }
-// }
-
-// @media (min-width: 1040px) {
-//     #hero {
-//         padding-bottom: 148px;
-//         background-position: bottom 14px right;
-//     }
-// }
-
-// @media (min-width: 1180px) {
-//     #hero {
-//         padding-bottom: 172px;
-//         background-position: bottom 24px right;
-//     }
-// }
+@media (min-width: 950px) {
+  #hero h1 {
+    max-width: none;
+  }
+}
 
 @media (min-width: 1280px) {
         #hero {
@@ -134,26 +90,6 @@ $font-secondary: 'Koulen', sans-serif;
         margin-bottom: 48px;
     }
 }
-
-// @media (min-width: 1440px) {
-//     #hero {
-//         padding-bottom: 156px;
-//         background-position: bottom 35px right 100px;
-//     }
-// }
-
-// @media (min-width: 1640px) {
-//     #hero {
-//         padding-bottom: 172px;
-//         background-position: bottom 46px right 100px;
-//     }
-// }
-
-// @media (min-width: 1920px) {
-//     #hero {
-//         background-position: bottom 58px right 100px;
-//     }
-// }
 // -- HERO --
 
 // -- SERVIZI --
