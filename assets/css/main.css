@@ -1,5 +1,5 @@
 #hero {
-  padding: 136px 12px 48px 12px;
+  padding: 136px 12px 60px 12px;
   background-image: url("../immagini/bg_hero_mobile.png");
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -56,7 +56,7 @@
 
 @media (min-width: 1280px) {
   #hero {
-    padding: 156px 64px 80px 64px;
+    padding: 156px 64px 96px 64px;
     background-image: url("../immagini/bg_hero_desktop.png");
     background-repeat: no-repeat;
     background-position: bottom right;
