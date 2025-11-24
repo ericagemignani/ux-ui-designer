@@ -3,7 +3,7 @@
   background-image: url("../immagini/bg_hero_mobile.png");
   background-repeat: no-repeat;
   background-position: bottom center;
-  background-size: 100vw auto;
+  background-size: 100vw 451px;
 }
 
 #hero h2 {
@@ -49,7 +49,7 @@
     background-image: url("../immagini/bg_hero_tablet.png");
     background-repeat: no-repeat;
     background-position: bottom center;
-    background-size: 100vw auto;
+    background-size: 100vw 807px;
   }
   #hero h2 {
     font-size: 28px;
@@ -87,7 +87,7 @@
     background-image: url("../immagini/bg_hero_desktop.png");
     background-repeat: no-repeat;
     background-position: bottom center;
-    background-size: 100vw auto;
+    background-size: 100vw 606px;
   }
   #hero h2 {
     font-size: 32px;
