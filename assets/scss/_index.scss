@@ -161,10 +161,10 @@ $font-secondary: 'Koulen', sans-serif;
 
 .arch {
     background-color: $secondary-color;
-    border-bottom: 32px solid $tertiary-color;
-    border-bottom-left-radius: 100%;
-    border-bottom-right-radius: 100%;
-    margin-top: -104px;
+    border-bottom: 16px solid $tertiary-color;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    margin-top: -40px;
 }
 
 // -- SERVIZI --

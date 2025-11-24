@@ -132,10 +132,10 @@
 }
 .arch {
     background-color: #FCFCFF;
-    border-bottom: 32px solid #7042CC;
-    border-bottom-left-radius: 100%;
-    border-bottom-right-radius: 100%;
-    margin-top: -104px;
+    border-bottom: 16px solid #7042CC;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    margin-top: -40px;
 }
 .servizi {
   padding: 80px 12px 0 12px;
