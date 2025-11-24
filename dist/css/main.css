@@ -4,7 +4,6 @@
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: 320px auto;
-  border-left: 4px solid #7042CC;
   border-bottom: 4px solid #7042CC;
 }
 
@@ -23,28 +22,6 @@
   text-decoration: none;
 }
 
-@media (min-width: 440px) {
-  #hero {
-    padding-bottom: 80px;
-    background-position: bottom 5px right;
-  }
-}
-@media (min-width: 560px) {
-  #hero {
-    padding-bottom: 96px;
-    background-position: bottom 12px right;
-  }
-}
-@media (min-width: 630px) {
-  #hero {
-    background-position: bottom 16px right;
-  }
-}
-@media (min-width: 680px) {
-  #hero {
-    background-position: bottom 20px right;
-  }
-}
 @media (min-width: 744px) {
   #hero {
     padding: 192px 32px 184px 32px;
@@ -52,37 +29,12 @@
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 744px auto;
-    border-left: 8px solid #7042CC;
     border-bottom: 8px solid #7042CC;
   }
   #hero h2 {
     font-size: 28px;
     margin-top: 64px;
     margin-bottom: 20px;
-  }
-}
-@media (min-width: 880px) {
-  #hero {
-    padding-bottom: 124px;
-    background-position: bottom 6px right;
-  }
-}
-@media (min-width: 970px) {
-  #hero {
-    padding-bottom: 136px;
-    background-position: bottom 10px right;
-  }
-}
-@media (min-width: 1040px) {
-  #hero {
-    padding-bottom: 148px;
-    background-position: bottom 14px right;
-  }
-}
-@media (min-width: 1180px) {
-  #hero {
-    padding-bottom: 172px;
-    background-position: bottom 24px right;
   }
 }
 @media (min-width: 1280px) {
@@ -92,7 +44,6 @@
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 1280px auto;
-    border-left: 12px solid #7042CC;
     border-bottom: 12px solid #7042CC;
   }
   #hero h2 {

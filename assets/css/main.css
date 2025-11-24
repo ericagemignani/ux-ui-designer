@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: 320px auto;
-  border-left: 4px solid #7042CC;
+  /* border-left: 4px solid #7042CC; */
   border-bottom: 4px solid #7042CC;
 }
 
@@ -31,7 +31,7 @@
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 744px auto;
-    border-left: 8px solid #7042CC;
+    /* border-left: 8px solid #7042CC; */
     border-bottom: 8px solid #7042CC;
   }
   #hero h2 {
@@ -40,7 +40,7 @@
     margin-bottom: 20px;
   }
 }
-@media (min-width: 880px) {
+/* @media (min-width: 880px) {
   #hero {
     padding-bottom: 124px;
     background-position: bottom 6px right;
@@ -63,7 +63,7 @@
     padding-bottom: 172px;
     background-position: bottom 24px right;
   }
-}
+} */
 @media (min-width: 1280px) {
   #hero {
     padding: 156px 64px 132px 64px;
@@ -71,7 +71,7 @@
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 1280px auto;
-    border-left: 12px solid #7042CC;
+    /* border-left: 12px solid #7042CC; */
     border-bottom: 12px solid #7042CC;
   }
   #hero h2 {
@@ -83,7 +83,7 @@
     margin-bottom: 48px;
   }
 }
-@media (min-width: 1440px) {
+/* @media (min-width: 1440px) {
   #hero {
     padding-bottom: 156px;
     background-position: bottom 35px right;
@@ -99,7 +99,7 @@
   #hero {
     background-position: bottom 58px right;
   }
-}
+} */
 
 .servizi {
   padding: 80px 12px 0 12px;
