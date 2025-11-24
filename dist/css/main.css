@@ -4,6 +4,8 @@
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: 320px auto;
+  border-left: 4px solid #7042CC;
+  border-bottom: 4px solid #7042CC;
 }
 
 #hero h2 {
@@ -50,6 +52,8 @@
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 744px auto;
+    border-left: 8px solid #7042CC;
+    border-bottom: 8px solid #7042CC;
   }
   #hero h2 {
     font-size: 28px;
@@ -88,6 +92,8 @@
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 1280px auto;
+    border-left: 12px solid #7042CC;
+    border-bottom: 12px solid #7042CC;
   }
   #hero h2 {
     font-size: 32px;
