@@ -2,8 +2,8 @@
   padding: 136px 12px 68px 12px;
   background-image: url("../immagini/bg_hero_mobile.png");
   background-repeat: no-repeat;
-  background-position: bottom center;
-  background-size: 100vw auto;
+  background-position: bottom right;
+  background-size: 320px auto;
 }
 
 #hero h2 {
@@ -21,35 +21,14 @@
   text-decoration: none;
 }
 
-/* @media (min-width: 440px) {
-  #hero {
-    padding-bottom: 80px;
-    background-position: bottom 5px right;
-  }
-}
-@media (min-width: 560px) {
-  #hero {
-    padding-bottom: 96px;
-    background-position: bottom 12px right;
-  }
-}
-@media (min-width: 630px) {
-  #hero {
-    background-position: bottom 16px right;
-  }
-}
-@media (min-width: 680px) {
-  #hero {
-    background-position: bottom 20px right;
-  }
-} */
+
 @media (min-width: 744px) {
   #hero {
     padding: 192px 32px 184px 32px;
     background-image: url("../immagini/bg_hero_tablet.png");
     background-repeat: no-repeat;
-    background-position: bottom center;
-    background-size: 100vw auto;
+    background-position: bottom right;
+    background-size: 744px auto;
   }
   #hero h2 {
     font-size: 28px;
@@ -57,7 +36,7 @@
     margin-bottom: 20px;
   }
 }
-/* @media (min-width: 880px) {
+@media (min-width: 880px) {
   #hero {
     padding-bottom: 124px;
     background-position: bottom 6px right;
@@ -80,14 +59,14 @@
     padding-bottom: 172px;
     background-position: bottom 24px right;
   }
-} */
+}
 @media (min-width: 1280px) {
   #hero {
     padding: 156px 64px 132px 64px;
     background-image: url("../immagini/bg_hero_desktop.png");
     background-repeat: no-repeat;
-    background-position: bottom center;
-    background-size: 100vw auto;
+    background-position: bottom right;
+    background-size: 1280px auto;
   }
   #hero h2 {
     font-size: 32px;
@@ -98,7 +77,7 @@
     margin-bottom: 48px;
   }
 }
-/* @media (min-width: 1440px) {
+@media (min-width: 1440px) {
   #hero {
     padding-bottom: 156px;
     background-position: bottom 35px right;
@@ -114,7 +93,7 @@
   #hero {
     background-position: bottom 58px right;
   }
-} */
+}
 
 .servizi {
   padding: 80px 12px 0 12px;
