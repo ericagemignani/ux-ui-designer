@@ -16,8 +16,9 @@ $font-secondary: 'Koulen', sans-serif;
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 320px auto;
-    // border-left: 4px solid $tertiary-color;
-    border-bottom: 4px solid $tertiary-color;
+    border-bottom: 16px solid $tertiary-color;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
 }
 
 #hero h2 {
@@ -68,8 +69,9 @@ $font-secondary: 'Koulen', sans-serif;
         background-repeat: no-repeat;
         background-position: bottom right;
         background-size: 744px auto;
-        // border-left: 8px solid $tertiary-color;
-        border-bottom: 8px solid $tertiary-color;
+        border-bottom: 16px solid $tertiary-color;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
     }
 
     #hero h2 {
@@ -114,8 +116,9 @@ $font-secondary: 'Koulen', sans-serif;
         background-repeat: no-repeat;
         background-position: bottom right;
         background-size: 1280px auto;
-        // border-left: 12px solid $tertiary-color;
-        border-bottom: 12px solid $tertiary-color;
+        border-bottom: 16px solid $tertiary-color;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
     }
 
     #hero h2 {
